@@ -1,0 +1,9 @@
+<% if @operation == 'add' %>
+    <h1><%= @num1 + @num2 %></h1>
+<% elsif @operation == 'subtract' %>
+    <h1><%= @num1 - @num2 %></h1>
+<% elsif @operation == 'multiply' %>
+    <h1><%= @num1 * @num2 %></h1>
+<% else %>
+    <h1><%= @num1 / @num2 %></h1>
+<% end %>
